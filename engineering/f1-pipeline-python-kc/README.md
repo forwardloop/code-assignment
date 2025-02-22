@@ -1,1 +1,3 @@
-F1 Data Pipeline
+1) f1-generate_lap_time-script: This script is designed to process and collect F1 drivers’ lap times, including driver name, lap number, and lap time. The pipeline will ingest a single file containing data in CSV format.
+
+2) f1-top-3-driver-result-script: This script calculates the average lap time for each driver and sorts them in ascending order. The output will generate a CSV file containing the top 3 drivers based on their average lap time. For each driver, the file will include both their fastest lap time and their average lap time.
